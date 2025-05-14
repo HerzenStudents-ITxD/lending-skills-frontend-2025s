@@ -36,7 +36,7 @@ function App() {
   });
 
   return (
-    <BrowserRouter {...router}>
+    <BrowserRouter {...router} basename="/ITxD-skills">
       <AdminProvider>
         <div className="min-h-screen flex flex-col">
           <Header links={headerLinks} setHeaderLinks={setHeaderLinks} />
